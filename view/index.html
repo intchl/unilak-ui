@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      Nova Free Bootstrap Template for Agency &mdash; by FreeBootstrap.net
+    </title>
+
+    <!-- ======= Google Font =======-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet" />
+    <!-- End Google Font-->
+
+    <!-- ======= Styles =======-->
+    <link
+      href="../assets/vendors/bootstrap/bootstrap.min.css"
+      rel="stylesheet" />
+    <link
+      href="../assets/vendors/bootstrap-icons/font/bootstrap-icons.min.css"
+      rel="stylesheet" />
+    <link
+      href="../assets/vendors/glightbox/glightbox.min.css"
+      rel="stylesheet" />
+    <link
+      href="../assets/vendors/swiper/swiper-bundle.min.css"
+      rel="stylesheet" />
+    <link href="../assets/vendors/aos/aos.css" rel="stylesheet" />
+    <!-- End Styles-->
+
+    <!-- ======= Theme Style =======-->
+    <link href="../assets/css/style.css" rel="stylesheet" />
+    <!-- End Theme Style-->
+
+    <!-- ======= Apply theme =======-->
+    <script>
+      (function () {
+        const storedTheme = localStorage.getItem("theme") || "light";
+        document.documentElement.setAttribute("data-bs-theme", storedTheme);
+      })();
+    </script>
+  </head>
+  <body>
+    <!-- ======= Site Wrap =======-->
+    <div class="site-wrap">
+      <!-- ======= Top Header =======-->
+      <div class="fbs__topbar p-2" id="topbar">
+        <div
+          class="container d-flex align-items-center justify-content-between">
+          <div class="d-flex align-items-center gap-2 join">
+            <i class="bi bi-megaphone"></i>
+            <a class="text-decoration-none fw-bold" href="#"
+              >Pendaftaran Mahasiswa Baru</a
+            >
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <div class="search-form-wrap position-relative">
+              <input
+                class="form-control"
+                id="search-form"
+                type="text"
+                placeholder="Cari..." />
+            </div>
+            <div class="social-links d-flex align-items-center gap-2">
+              <a class="social-link" href="#"><i class="bi bi-youtube"></i></a>
+              <a class="social-link" href="#"
+                ><i class="bi bi-instagram"></i
+              ></a>
+              <a class="social-link" href="#"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ======= End Top Header =======-->
+      <!-- ======= Header =======-->
+      <header
+        class="fbs__net-navbar navbar navbar-expand-lg dark"
+        aria-label="freebootstrap.net navbar">
+        <div
+          class="container d-flex align-items-center justify-content-between">
+          <!-- Start Logo-->
+          <a class="navbar-brand w-auto" href="index.html"
+            ><img
+              class="logo dark img-fluid"
+              src="../assets/images/unilak.png"
+              alt="FreeBootstrap.net image placeholder" />
+
+            <!-- logo light--><img
+              class="logo light img-fluid"
+              src="../assets/images/logo-light.svg"
+              alt="FreeBootstrap.net image placeholder" />
+          </a>
+          <!-- End Logo-->
+
+          <!-- Start offcanvas-->
+          <div
+            class="offcanvas offcanvas-start w-75"
+            id="fbs__net-navbars"
+            tabindex="-1"
+            aria-labelledby="fbs__net-navbarsLabel">
+            <div class="offcanvas-header">
+              <div class="offcanvas-header-logo">
+                <a
+                  class="logo-link"
+                  id="fbs__net-navbarsLabel"
+                  href="index.html">
+                  <img
+                    class="logo dark img-fluid"
+                    src="../assets/images/unilak.png"
+                    alt="FreeBootstrap.net image placeholder"
+                /></a>
+              </div>
+              <button
+                class="btn-close btn-close-black"
+                type="button"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+
+            <div class="offcanvas-body align-items-lg-center">
+              <ul class="navbar-nav nav me-auto ps-lg-5 mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link scroll-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >Beranda</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    >Profil <i class="bi bi-chevron-down"></i
+                  ></a>
+
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a
+                        class="nav-link scroll-link dropdown-item"
+                        href="visimisi.html"
+                        >Visi & Misi</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="nav-link scroll-link dropdown-item"
+                        href="struktur.html"
+                        >Struktur Organisasi</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="nav-link scroll-link dropdown-item"
+                        href="kata.html"
+                        >Kata Sambutan</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    >Fasilitas <i class="bi bi-chevron-down"></i
+                  ></a>
+
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a
+                        class="nav-link scroll-link dropdown-item"
+                        href="agenda.html"
+                        >Agenda</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="nav-link scroll-link dropdown-item"
+                        href="download.html"
+                        >Download</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    >Blog <i class="bi bi-chevron-down"></i
+                  ></a>
+
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="nav-link scroll-link dropdown-item" href="#"
+                        >Unilak</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="nav-link scroll-link dropdown-item"
+                        href="#services"
+                        >Dosen</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="nav-link scroll-link dropdown-item"
+                        href="#pricing"
+                        >Mahasiswa</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="nav-link scroll-link dropdown-item"
+                        href="#pricing"
+                        >Beasiswa</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="nav-link scroll-link dropdown-item"
+                        href="#pricing"
+                        >Pengumuman</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link scroll-link" href="#about">Affiliator</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link scroll-link" href="#pricing">CBT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link scroll-link" href="#how-it-works">RPL</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link scroll-link" href="#services">Branding</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- End offcanvas-->
+
+          <div class="ms-auto w-auto">
+            <div class="header-social d-flex align-items-center gap-1">
+              <a class="btn btn-primary py-2" href="#">Get Started</a>
+              <button
+                class="fbs__net-navbar-toggler justify-content-center align-items-center ms-auto"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#fbs__net-navbars"
+                aria-controls="fbs__net-navbars"
+                aria-label="Toggle navigation"
+                aria-expanded="false">
+                <svg
+                  class="fbs__net-icon-menu"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewbox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <line x1="21" x2="3" y1="6" y2="6"></line>
+                  <line x1="15" x2="3" y1="12" y2="12"></line>
+                  <line x1="17" x2="3" y1="18" y2="18"></line>
+                </svg>
+                <svg
+                  class="fbs__net-icon-close"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewbox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M18 6 6 18"></path>
+                  <path d="m6 6 12 12"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- End Header-->
+
+      <!-- ======= Main =======-->
+      <main>
+        <!-- ======= Hero =======-->
+        <section
+          class="hero__v6 section"
+          id="home"
+          style="background-image: url(bg.jpg)">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mb-4 mb-lg-0">
+                <div class="row">
+                  <div class="col-lg-11">
+                    <h1 class="hero-title mb-3">
+                      Pilihan Tepat<br />
+                      <span class="hero-header">Kampus Orang Sukses</span>
+                    </h1>
+                    <div class="cta d-flex gap-2 mb-4 mb-lg-5">
+                      <a
+                        class="btn btn-white-outline"
+                        href="prodi.html
+                      ">
+                        Pilih Prodimu
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="bi bi-chevron-right"
+                          width="18"
+                          height="18"
+                          viewbox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round">
+                          <path
+                            fill-rule="evenodd"
+                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
+                        </svg>
+                      </a>
+                      <a class="btn" href="#">
+                        Daftar Sekarang
+                        <svg
+                          class="lucide lucide-arrow-up-right"
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="18"
+                          height="18"
+                          viewbox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round">
+                          <path d="M7 7h10v10"></path>
+                          <path d="M7 17 17 7"></path>
+                        </svg>
+                      </a>
+                    </div>
+                    <div class="row mt-4">
+                      <div class="col-6 mb-3">
+                        <div class="d-flex align-items-center">
+                          <span class="hero-feature-icon-circle me-2">
+                            <i class="bi bi-patch-check-fill text-primary"></i>
+                          </span>
+                          <p class="mb-0">Perguruan Tinggi Terakreditasi</p>
+                        </div>
+                      </div>
+                      <div class="col-6 mb-3">
+                        <div class="d-flex align-items-center">
+                          <span class="hero-feature-icon-circle me-2">
+                            <i class="bi bi-cash-stack text-primary"></i>
+                          </span>
+                          <p class="mb-0">Biaya Super Hemat</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="d-flex align-items-center">
+                          <span class="hero-feature-icon-circle me-2">
+                            <i class="bi bi-award-fill text-primary"></i>
+                          </span>
+                          <p class="mb-0">Beragam Beasiswa</p>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="d-flex align-items-center">
+                          <span class="hero-feature-icon-circle me-2">
+                            <i class="bi bi-briefcase-fill text-primary"></i>
+                          </span>
+                          <p class="mb-0">Peluang Karir Tinggi</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="hero-img">
+                  <img
+                    class="img-main img-fluid rounded-4"
+                    src="../assets/images/orang2.png"
+                    alt="Hero Image" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End Hero-->
+
+        <!-- ======= Stats =======-->
+        <section class="stats__v3 section">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div
+                  class="d-flex flex-wrap content rounded-4"
+                  style="background-image: url(stats_bg.png)">
+                  <div class="col-12 col-sm-6 col-md-4 text-center">
+                    <div class="stat-item">
+                      <h3 class="fs-1 fw-bold">
+                        <span
+                          class="purecounter"
+                          data-purecounter-start="0"
+                          data-purecounter-end="12262"
+                          data-purecounter-duration="2"
+                          >0</span
+                        ><span></span>
+                      </h3>
+                      <p class="">Mahasiswa Aktif</p>
+                    </div>
+                    <div class="stat-item">
+                      <h3 class="fs-1 fw-bold">
+                        <span
+                          class="purecounter"
+                          data-purecounter-start="0"
+                          data-purecounter-end="30490"
+                          data-purecounter-duration="2"
+                          >0</span
+                        ><span></span>
+                      </h3>
+                      <p class="">Alumni</p>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-4">
+                    <div class="stat-item">
+                      <img src="../assets\images\stats_people.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-4 text-center">
+                    <div class="stat-item">
+                      <h3 class="fs-1 fw-bold">
+                        <span
+                          class="purecounter"
+                          data-purecounter-start="0"
+                          data-purecounter-end="10"
+                          data-purecounter-duration="2"
+                          >0</span
+                        ><span></span>
+                      </h3>
+                      <p class="">Fakultas</p>
+                    </div>
+                    <div class="stat-item">
+                      <h3 class="fs-1 fw-bold">
+                        <span
+                          class="purecounter"
+                          data-purecounter-start="0"
+                          data-purecounter-end="34"
+                          data-purecounter-duration="2"
+                          >0</span
+                        ><span></span>
+                      </h3>
+                      <p class="">Program Studi</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End Stats-->
+
+        <!-- ======= Tentang Kami =======-->
+        <section class="section aboutus__v2" id="aboutus">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="d-lg-flex p-5 rounded-4 content">
+                  <div class="row">
+                    <div class="col-lg-6 mb-5 mb-lg-0">
+                      <div class="row">
+                        <div class="col-lg-11">
+                          <div
+                            class="h-100 flex-column justify-content-between d-flex title">
+                            <div>
+                              <img src="../assets/images/about2.png" alt="" />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="row">
+                        <div class="col-lg-11">
+                          <div
+                            class="h-100 flex-column justify-content-between d-flex">
+                            <div>
+                              <p class="mb-3">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut
+                                enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute irure dolor in
+                                reprehenderit in voluptate velit esse
+                              </p>
+                            </div>
+                            <div class="align-self-start">
+                              <a
+                                href="tetangkami.html"
+                                class="btn btn-play d-inline-flex align-items-center gap-1"
+                                >Tentang Kami<i class="bi bi-chevron-right"></i
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End Tentang Kami-->
+
+        <!-- ======= Caraousel =======-->
+        <section class="carousel section">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div
+                  id="statsCarousel"
+                  class="carousel slide"
+                  data-bs-ride="carousel">
+                  <div
+                    class="carousel-inner rounded-4"
+                    style="background-color: #f8f9fa">
+                    <div class="carousel-item active">
+                      <img
+                        src="../assets/images/banner1.png"
+                        class="d-block w-100"
+                        alt="Image 1" />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="../assets/images/banner2.png"
+                        class="d-block w-100"
+                        alt="Image 2" />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="../assets/images/banner3.png"
+                        class="d-block w-100"
+                        alt="Image 3" />
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#statsCarousel"
+                    data-bs-slide="prev">
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#statsCarousel"
+                    data-bs-slide="next">
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End of Caraousel-->
+
+        <!-- ======= Content =======-->
+        <section class="section content" id="content">
+          <div class="container">
+            <div class="row g-1">
+              <div class="col-md-6 col-lg-4">
+                <div
+                  class="content-card p-4 rounded-4 h-100 d-flex flex-column justify-content-between gap-4">
+                  <div>
+                    <h3 class="fs-5 mb-3">Berita</h3>
+                    <div class="row g-1">
+                      <div class="col-md-6 col-lg-6">
+                        <img
+                          src="../assets/images/berita1.jpg"
+                          class="card-img-top rounded-top-4"
+                          alt="..." />
+                        <div
+                          class="content-card p-2 rounded-bottom-4 d-flex flex-column justify-content-between gap-1">
+                          <div>
+                            <a href="berita-detail.html" class="title">
+                              Duta Batik Riau 2025, Mahasiswi Fakultas Hukum
+                              Unilak Raih Juara Dua</a
+                            >
+                            <p class="date">
+                              <i class="bi bi-calendar"></i>
+                              24 April 2002
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-lg-6">
+                        <img
+                          src="../assets/images/berita2.jpeg"
+                          class="card-img-top rounded-top-4"
+                          alt="..." />
+                        <div
+                          class="content-card p-2 rounded-bottom-4 d-flex flex-column justify-content-between gap-1">
+                          <div>
+                            <a href="" class="title">
+                              Dua Profesor Pendidikan Hadir di MAN 2 Pekanbaru,
+                              Wakasek Dra Diah Anggraini Sebut Moment Langka dan
+                              Senang</a
+                            >
+                            <p class="date">
+                              <i class="bi bi-calendar"></i>
+                              24 April 2002
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <a
+                    class="special-link d-inline-flex gap-2 align-items-center text-decoration-none"
+                    href="berita.html"
+                    ><span class="icons"
+                      ><i class="icon-1 bi bi-arrow-right-short"></i
+                      ><i class="icon-2 bi bi-arrow-right-short"> </i></span
+                    ><span>Selengkapnya</span></a
+                  >
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div
+                  class="content-card p-4 rounded-4 h-100 d-flex flex-column justify-content-between gap-5">
+                  <div>
+                    <h3 class="fs-5 mb-3">Pengumuman</h3>
+                    <div class="col-md-12 col-lg-12">
+                      <div
+                        class="content-card p-2 rounded-4 d-flex flex-column justify-content-between gap- mb-2">
+                        <div>
+                          <a href="pengumuman-detail.html" class="title">
+                            Rektor Unilak Prof Junaidi Lantik Wakil Dekan,
+                            Kaprodi dan Kepala Lembaga, Ini Pesan Yang
+                            Disampikan</a
+                          >
+                          <p class="date">
+                            <i class="bi bi-calendar"></i>
+                            14 April 2025
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-12 col-lg-12">
+                      <div
+                        class="content-card p-2 rounded-4 d-flex flex-column justify-content-between gap-1">
+                        <div>
+                          <a href="" class="title">
+                            Rektor Unilak Prof Junaidi Lantik Wakil Dekan,
+                            Kaprodi dan Kepala Lembaga, Ini Pesan Yang
+                            Disampikan</a
+                          >
+                          <p class="date">
+                            <i class="bi bi-calendar"></i>
+                            14 April 2025
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <a
+                    class="special-link d-inline-flex gap-2 align-items-center text-decoration-none"
+                    href="pengumuman.html"
+                    ><span class="icons"
+                      ><i class="icon-1 bi bi-arrow-right-short"></i
+                      ><i class="icon-2 bi bi-arrow-right-short"> </i></span
+                    ><span>Selengkapnya</span></a
+                  >
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div
+                  class="content-card p-4 rounded-4 h-100 d-flex flex-column justify-content-between gap-5">
+                  <div>
+                    <h3 class="fs-5 mb-3">Artikel</h3>
+                    <div class="col-md-12 col-lg-12">
+                      <div
+                        class="content-card p-2 rounded-4 d-flex flex-column justify-content-between gap-1 mb-2">
+                        <div>
+                          <a href="artikel-detail.html" class="title">
+                            Rektor Unilak Prof Junaidi Lantik Wakil Dekan,
+                            Kaprodi dan Kepala Lembaga, Ini Pesan Yang
+                            Disampikan</a
+                          >
+                          <p class="date">
+                            <i class="bi bi-calendar"></i>
+                            14 April 2025
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-12 col-lg-12">
+                      <div
+                        class="content-card p-2 rounded-4 d-flex flex-column justify-content-between gap-1">
+                        <div>
+                          <a href="" class="title">
+                            Rektor Unilak Prof Junaidi Lantik Wakil Dekan,
+                            Kaprodi dan Kepala Lembaga, Ini Pesan Yang
+                            Disampikan</a
+                          >
+                          <p class="date">
+                            <i class="bi bi-calendar"></i>
+                            14 April 2025
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <a
+                    class="special-link d-inline-flex gap-2 align-items-center text-decoration-none"
+                    href="artikel.html"
+                    ><span class="icons"
+                      ><i class="icon-1 bi bi-arrow-right-short"></i
+                      ><i class="icon-2 bi bi-arrow-right-short"> </i></span
+                    ><span>Selengkapnya</span></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End of Content-->
+
+        <!-- ======= Testimoni =======-->
+        <section class="testimoni section" id="about">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 order-md-2">
+                <div class="row justify-content-end">
+                  <div class="col-md-12 col-lg-12 mb-3">
+                    <div class="testimonial rounded-4">
+                      <blockquote class="mb-3">
+                        &ldquo; Kuliah di Unilak bukan hanya sekadar mendapatkan
+                        gelar, tetapi juga membentuk karakter dan membuka
+                        wawasan. Saya bangga menjadi bagian dari Unilak! &rdquo;
+                      </blockquote>
+                      <div
+                        class="testimonial-author d-flex gap-3 align-items-center">
+                        <div class="author-img">
+                          <img
+                            class="rounded-circle img-fluid"
+                            src="../assets/images/testi1.png"
+                            alt="FreeBootstrap.net image placeholder" />
+                        </div>
+                        <div class="lh-base">
+                          <strong class="d-block">Rizki Pratama</strong
+                          ><span>Mahasiswa Berprestasi</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div class="col-md-12 col-lg-12">
+                    <div class="testimonial rounded-4">
+                      <blockquote class="mb-3">
+                        &ldquo; Pengalaman saya sebagai mahasiswa di Unilak
+                        sungguh luar biasa. Kurikulum yang relevan dengan
+                        kebutuhan industri memberikan bekal kuat untuk dunia
+                        kerja. Unilak adalah pilihan terbaik untuk masa depan!
+                        &rdquo;
+                      </blockquote>
+                      <div
+                        class="testimonial-author d-flex gap-3 align-items-center">
+                        <div class="author-img">
+                          <img
+                            class="rounded-circle img-fluid"
+                            src="../assets/images/testi2.png"
+                            alt="FreeBootstrap.net image placeholder" />
+                        </div>
+                        <div class="lh-base">
+                          <strong class="d-block">Sarah Amanda</strong
+                          ><span>Alumni Terbaik, Angkatan 2020</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="img-wrap position-relative">
+                  <img
+                    class="img-fluid rounded-4"
+                    src="../assets/images/testi.png"
+                    alt="FreeBootstrap.net image placeholder" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End About-->
+        <!-- ======= CTA =======-->
+        <section class="cta section">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-7">
+                <h2 class="fs-5">Tetarik Bergabung?</h2>
+                <p>Ayo daftar sekarang dan nikmatin potongan harganya!</p>
+              </div>
+              <div
+                class="col-md-5 d-flex justify-content-end align-items-center">
+                <button class="btn btn-primary fs-6" type="submit">
+                  Daftar Sekarang
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End of CTA-->
+
+        <!-- ======= Testimonials =======-->
+        <section class="section testimonials__v2" id="testimonials">
+          <div class="container">
+            <div class="row mb-5">
+              <div class="col-lg-5 mx-auto text-center">
+                <h2 class="mb-3">Strategic Partnership</h2>
+                <p></p>
+              </div>
+            </div>
+            <div class="row g-4" data-masonry='{"percentPosition": true }'>
+              <div
+                class="col-md-6 col-lg-4"
+                data-aos="fade-up"
+                data-aos-delay="0">
+                <div class="testimonial rounded-4 p-4">
+                  <blockquote class="mb-3">
+                    &ldquo; Perusahaan memiliki komitmen yang tinggi terhadap
+                    dunia pendidikan. "Kita sangat mengapresiasi dengan Civitas
+                    Akademika Unilak, ini sebagai bentuk kolaborasi yang baik
+                    antara dunia usaha dengan institusi perguruan tinggi &rdquo;
+                  </blockquote>
+                  <div
+                    class="testimonial-author d-flex gap-3 align-items-center">
+                    <div class="author-img">
+                      <img
+                        class="rounded-circle img-fluid"
+                        src="../assets/images/rapp.jfif"
+                        alt="FreeBootstrap.net image placeholder" />
+                    </div>
+                    <div class="lh-base">
+                      <strong class="d-block">Direktur</strong
+                      ><span>PT RAPP</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-md-6 col-lg-4"
+                data-aos="fade-up"
+                data-aos-delay="100">
+                <div class="testimonial rounded-4 p-4">
+                  <blockquote class="mb-3">
+                    &ldquo; Bank Riau Kepri Syariah : Kami berharap dengan
+                    kerjasama Unilak Dapat lebih mengembangkan dan
+                    mengoptimalisasikan layanan kepada nasabah, keluarga Besar
+                    Unilak dan masyarakat luas. &rdquo;
+                  </blockquote>
+                  <div
+                    class="testimonial-author d-flex gap-3 align-items-center">
+                    <div class="author-img">
+                      <img
+                        class="rounded-circle img-fluid"
+                        src="../assets/images/brk.png"
+                        alt="FreeBootstrap.net image placeholder" />
+                    </div>
+                    <div class="lh-base">
+                      <strong class="d-block">Direktur</strong
+                      ><span>BRK Syariah</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-md-6 col-lg-4"
+                data-aos="fade-up"
+                data-aos-delay="200">
+                <div class="testimonial rounded-4 p-4">
+                  <blockquote class="mb-3">
+                    &ldquo; Di tahun 2022, WK Rokan bersama dengan LPPM Unilak
+                    melakukan pendampingan langsung 12 bank sampah di Kampar,
+                    Siak, Bengkalis dan Pekanbaru. Program ini juga mendukung
+                    pembinaan 41 bank sampah mitra dan 30 sekolah Adiwiyata.
+                    &rdquo;
+                  </blockquote>
+                  <div
+                    class="testimonial-author d-flex gap-3 align-items-center">
+                    <div class="author-img">
+                      <img
+                        class="rounded-circle img-fluid"
+                        src="../assets/images/phr.png"
+                        alt="FreeBootstrap.net image placeholder" />
+                    </div>
+                    <div class="lh-base">
+                      <strong class="d-block">Direktur</strong
+                      ><span>PT PHR</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End of Testimonials-->
+
+        <!-- ======= Footer =======-->
+        <footer class="footer pt-5">
+          <div class="container">
+            <div class="row mb-5 pb-4">
+              <div class="col-md-7">
+                <h2 class="fs-5">Bergabunglah dengan buletin kami</h2>
+                <p>
+                  Tetap terinformasi dengan kami—bergabunglah dengan buletin
+                  kami hari ini!
+                </p>
+              </div>
+              <div class="col-md-5">
+                <form class="d-flex gap-2">
+                  <input
+                    class="form-control"
+                    type="email"
+                    placeholder="Masukkan email Anda"
+                    required="" />
+                  <button class="btn btn-primary fs-6" type="submit">
+                    Berlangganan
+                  </button>
+                </form>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3 col-md-6 mb-4">
+                <div class="d-flex align-items-center mb-3">
+                  <img src="../assets/images/unilak.png" alt="Logo Unilak" />
+                </div>
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#" style="color: inherit; text-decoration: none"
+                      >Fakultas Ilmu Komputer</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" style="color: inherit; text-decoration: none"
+                      >Fakultas Hukum</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" style="color: inherit; text-decoration: none"
+                      >Fakultas Kehutanan dan Sains</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" style="color: inherit; text-decoration: none"
+                      >Fakultas Pertanian</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" style="color: inherit; text-decoration: none"
+                      >Fakultas Ilmu Administrasi</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" style="color: inherit; text-decoration: none"
+                      >Fakultas Pendidikan dan Vokasi</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" style="color: inherit; text-decoration: none"
+                      >Fakultas Ekonomi dan Bisnis</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" style="color: inherit; text-decoration: none"
+                      >Fakultas Teknik</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" style="color: inherit; text-decoration: none"
+                      >Fakultas Ilmu Budaya</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" style="color: inherit; text-decoration: none"
+                      >Sekolah Pascasarjana</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-lg-3 col-md-6 mb-4">
+                <h4 class="fs-5 mb-3" style="font-weight: 600">Link Terkait</h4>
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#" style="color: inherit; text-decoration: none"
+                      >Kemdikbud</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" style="color: inherit; text-decoration: none"
+                      >LLDIKTI Wilayah X</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" style="color: inherit; text-decoration: none"
+                      >BAN PT</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" style="color: inherit; text-decoration: none"
+                      >Sistem Ristek Dikti</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" style="color: inherit; text-decoration: none"
+                      >PAK LLDIKTI Wilayah X</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" style="color: inherit; text-decoration: none"
+                      >SIMDOS</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-lg-3 col-md-6 mb-4">
+                <h4 class="fs-5 mb-3" style="font-weight: 600">
+                  Sistem Informasi
+                </h4>
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#" style="color: inherit; text-decoration: none"
+                      >Repository Unilak</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" style="color: inherit; text-decoration: none"
+                      >BPM Unilak</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" style="color: inherit; text-decoration: none"
+                      >LPPM Unilak</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" style="color: inherit; text-decoration: none"
+                      >SIPP Unilak</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" style="color: inherit; text-decoration: none"
+                      >Balai Bahasa Unilak</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" style="color: inherit; text-decoration: none"
+                      >Kerjasama</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" style="color: inherit; text-decoration: none"
+                      >Kemahasiswaan</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" style="color: inherit; text-decoration: none"
+                      >Perpustakaan</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" style="color: inherit; text-decoration: none"
+                      >P2K2</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-4">
+                <h4 class="fs-5 mb-3" style="font-weight: 600">Hubungi Kami</h4>
+                <ul class="list-unstyled">
+                  <li>Alamat : Jl.Yos Sudarso KM. 8 Rumbai, Pekanbaru</li>
+                  <li>Telphone : (0761) 52248 | (0761) 53108</li>
+                  <li>Whatsapp : 085349494909 / 085349494919</li>
+                  <li>Email : info@unilak.ac.id</li>
+                  <li>Facebook : @infounilak</li>
+                  <li>Instagram : @infounilak</li>
+                  <li>Tiktok : @infounilak</li>
+                </ul>
+              </div>
+            </div>
+            <div class="row pt-4 pb-3 border-top">
+              <div class="col-12 text-center">
+                <h4>Made with ❤️ by Core Team</h4>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- End Footer-->
+      </main>
+    </div>
+
+    <!-- ======= Back to Top =======-->
+    <button id="back-to-top"><i class="bi bi-arrow-up-short"></i></button>
+    <!-- End Back to top-->
+
+    <!-- ======= Javascripts =======-->
+    <script src="../assets/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="../assets/vendors/gsap/gsap.min.js"></script>
+    <script src="../assets/vendors/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="../assets/vendors/isotope/isotope.pkgd.min.js"></script>
+    <script src="../assets/vendors/glightbox/glightbox.min.js"></script>
+    <script src="../assets/vendors/swiper/swiper-bundle.min.js"></script>
+    <script src="../assets/vendors/aos/aos.js"></script>
+    <script src="../assets/vendors/purecounter/purecounter.js"></script>
+    <script src="../assets/js/custom.js"></script>
+    <script src="../assets/js/send_email.js"></script>
+  </body>
+</html>
